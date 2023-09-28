@@ -1,0 +1,98 @@
+@media (min-width:1023px) {
+    a {
+        text-decoration: none;
+    }
+
+    nav>i:first-child {
+        display: none;
+    }
+
+
+}
+
+@media (min-width:740px) and (max-width:1023px) {
+    a {
+        text-decoration: none;
+    }
+
+    nav>ul>li {
+        font-size: 1rem;
+    }
+
+    nav img {
+        width: 100px;
+    }
+
+    .search {
+        padding: 5px;
+        margin-right: 3px;
+        border-radius: 2px;
+    }
+
+    nav menu input {
+        font-size: 1rem;
+        margin-right: -18px;
+    }
+
+    nav>i:first-child {
+        display: none;
+    }
+
+}
+
+@media (max-width:739px) {
+    a {
+        text-decoration: none;
+    }
+
+    .box .box1 a {
+        font-size: 1rem;
+    }
+
+    nav menu .search,
+    nav menu i:nth-child(2),
+    nav menu i:nth-child(3),
+    nav>ul {
+        display: none;
+    }
+
+
+    nav>i:first-child {
+        display: block;
+        margin-left: 10px;
+        font-size: 1.4rem;
+        position: relative;
+    }
+
+    nav .bars {
+        display: block;
+        width: 540px;
+        height: 100vh;
+        position: absolute;
+        background-color: var(--white-color);
+        left: -10px;
+        top: 20px;
+        display: none;
+        animation: fedein ease-in 0.5s;
+    }
+
+    nav .bars span {
+        display: block;
+        margin: 20px 15px;
+        font-size: 1.4rem;
+        color: var(--black-color);
+    }
+
+    nav>i:first-child:hover .bars {
+        display: block;
+    }
+
+    nav .bars span:first-child {
+        margin-top: 30px;
+    }
+
+    nav .bars span:nth-child(4) {
+        color: #ff0000 !important;
+    }
+
+}
